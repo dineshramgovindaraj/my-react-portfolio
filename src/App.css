@@ -125,7 +125,7 @@
   color: #e70faa;
 }
 .home-flex {
-  display: flex;
+  /* display: flex; */
   width: 1204px;
   height: 350px;
   padding-top: 19px;
@@ -148,20 +148,19 @@
     border-radius: 230px;
     border: 9px solid #e70faa;
     background: lightgray 50% / cover no-repeat;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-top: -60px;
+  }
+  .home-flex {
+    width: 94vw;
   }
   .home-head {
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    margin: 20px 0px 30px -940px;
+    margin: 25px 0px 25px 0px;
   }
   .cv-btn {
-    margin-left: 40px;
-  }
-  body {
-    /* min-height: 100vh; */
-    width: 100vw;
+    margin-left: 50px;
   }
 }
