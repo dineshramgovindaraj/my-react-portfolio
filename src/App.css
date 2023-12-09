@@ -148,7 +148,7 @@
     border-radius: 230px;
     border: 9px solid #e70faa;
     background: lightgray 50% / cover no-repeat;
-    margin-left: 35px;
+    margin-left: 50px;
     margin-top: -60px;
   }
   .home-flex {
@@ -158,9 +158,9 @@
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    margin: 25px 0px 25px 0px;
+    margin: 25px 20px 25px 0px;
   }
   .cv-btn {
-    margin-left: 50px;
+    margin-left: 70px;
   }
 }
