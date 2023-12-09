@@ -112,19 +112,24 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              {/* <NavLink to="/">Home</NavLink> */}
+              <a>Home</a>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              {/* <NavLink to="/about">About</NavLink> */}
+              <a>About</a>
             </li>
             <li>
-              <NavLink to="/tech-stack">Tech Stack</NavLink>
+              {/* <NavLink to="/tech-stack">Tech Stack</NavLink> */}
+              <a>Tech Stack</a>
             </li>
             <li>
-              <NavLink to="/project">Project</NavLink>
+              {/* <NavLink to="/project">Project</NavLink> */}
+              <a>Project</a>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              {/* <NavLink to="/contact">Contact</NavLink> */}
+              <a>Contact</a>
             </li>
           </ul>
         </div>

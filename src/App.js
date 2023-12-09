@@ -6,11 +6,12 @@ import Home from "./components/Home";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Navbar />
       <Home />
     </>
   );
