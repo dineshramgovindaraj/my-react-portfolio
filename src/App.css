@@ -108,8 +108,9 @@
   height: 349px;
   flex-shrink: 0;
   border-radius: 230px;
-  border: 9px solid #e70faa;
-  background: lightgray 50% / cover no-repeat;
+  border: 9px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #00c0fd, #e70faa) border-box;
   margin-left: 0px;
 }
 .home-head {
@@ -122,7 +123,10 @@
   letter-spacing: -1px;
 }
 .home-span {
-  color: #e70faa;
+  /* color: #e70faa; */
+  background-image: linear-gradient(to right, #00c0fd, #e70faa);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .home-flex {
   /* display: flex; */
@@ -144,10 +148,6 @@
   .avathar-img {
     width: 200px;
     height: 200px;
-    flex-shrink: 0;
-    border-radius: 230px;
-    border: 9px solid #e70faa;
-    background: lightgray 50% / cover no-repeat;
     margin-left: 50px;
     margin-top: -60px;
   }
@@ -156,7 +156,7 @@
   }
   .home-head {
     font-size: 25px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
     margin: 25px 20px 25px 0px;
   }
