@@ -33,12 +33,13 @@
   .tech-head {
     font-size: 35px;
     line-height: 20px; /* 54.167% */
-    margin-top: 100px;
+    margin-top: 120px;
   }
   .tech-para {
     font-size: 18px;
     line-height: 20px; /* 81.25% */
     margin-top: 25px;
+    margin-bottom: 20px;
   }
   .tech-grid {
     margin: 60px;

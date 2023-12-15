@@ -33,7 +33,7 @@
   padding-top: 19px;
   justify-content: center;
   align-items: center;
-  margin: 120px 0px 0px 10px;
+  margin: 150px 0px 0px 10px;
 }
 .cv-btn {
   /* position: fixed; */
@@ -67,6 +67,6 @@
   }
   .cv-btn {
     margin-left: 70px;
-    margin-top: 180px;
+    margin-top: 200px;
   }
 }
