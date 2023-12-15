@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.843f357e.css",
+    "main.css": "/portfolio-react/static/css/main.c4b85813.css",
     "main.js": "/portfolio-react/static/js/main.f5f71f01.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/avathar-removebg-preview.png": "/portfolio-react/static/media/avathar-removebg-preview.a93414cae5dfecfc53bf.png",
@@ -13,12 +13,12 @@
     "index.html": "/portfolio-react/index.html",
     "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.083c43a3fb7c4f71ae59ca57ea1e39cd.svg",
     "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.d031b6c922ff15bd20637de56de175d3.svg",
-    "main.843f357e.css.map": "/portfolio-react/static/css/main.843f357e.css.map",
+    "main.c4b85813.css.map": "/portfolio-react/static/css/main.c4b85813.css.map",
     "main.f5f71f01.js.map": "/portfolio-react/static/js/main.f5f71f01.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.843f357e.css",
+    "static/css/main.c4b85813.css",
     "static/js/main.f5f71f01.js"
   ]
 }
