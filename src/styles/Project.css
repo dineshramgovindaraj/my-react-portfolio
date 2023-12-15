@@ -1,0 +1,21 @@
+* {
+  color: white;
+}
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.card-title {
+  color: white;
+  font-weight: bold;
+}
+.text {
+  font-size: 15px;
+}
+.logo-text {
+  color: aqua;
+  text-decoration: none;
+}
+.logo-text:hover {
+  color: rgb(77, 139, 139);
+}
