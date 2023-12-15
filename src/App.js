@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Techstack from "./components/Techstack";
+// import SlideNavbar from "./components/SlideNavbar";
 
 function App() {
   return (
