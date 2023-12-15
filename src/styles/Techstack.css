@@ -1,0 +1,46 @@
+/* TECHSTACH  */
+.tech-head {
+  color: var(--Solid-Heading-Dark-mode, #ccc);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+  margin-top: 100px;
+}
+.tech-para {
+  color: var(--light-Content, #a7a7a7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 81.25% */
+  margin-top: 40px;
+}
+.tech-grid {
+  margin: 50px;
+}
+.tech-img {
+  margin: 25px;
+}
+@media (max-width: 480px) {
+  .tech-head {
+    font-size: 35px;
+    line-height: 20px; /* 54.167% */
+    margin-top: 100px;
+  }
+  .tech-para {
+    font-size: 18px;
+    line-height: 20px; /* 81.25% */
+    margin-top: 25px;
+  }
+  .tech-grid {
+    margin: 60px;
+  }
+  .tech-img {
+    margin: 25px;
+    height: 80px;
+  }
+}

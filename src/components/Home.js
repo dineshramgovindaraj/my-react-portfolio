@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Home.css";
 import Avathar from "../images/avathar-removebg-preview.png";
 import { TypeAnimation } from "react-type-animation";
 
@@ -25,12 +26,16 @@ const Home = () => {
                   1000,
                   "",
                 ]}
-                speed={50}
-                style={{ whiteSpace: "pre-line" }}
+                speed={40}
+                style={{
+                  whiteSpace: "pre-line",
+                }}
                 repeat={Infinity}
               />
             </h1>
-            <button className="btn btn-secondary cv-btn">Download CV</button>
+            <div>
+              <button className="btn btn-secondary cv-btn">Download CV</button>
+            </div>
           </div>
         </div>
       </div>
