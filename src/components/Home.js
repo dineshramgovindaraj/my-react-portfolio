@@ -8,7 +8,12 @@ const Home = () => {
     <>
       <div className="container">
         <div className="home-flex row">
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <div
+            data-aos="flip-right"
+            data-aos-easing="linear"
+            data-aos-duration="1200"
+            className="col-lg-6 col-md-6 col-sm-12"
+          >
             <img className="avathar-img" src={Avathar} alt="avathar" />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">

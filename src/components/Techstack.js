@@ -11,33 +11,86 @@ import Vscode from "../images/vscode-icons_file-type-vscode.svg";
 const Techstack = () => {
   return (
     <>
-      <h1 className="tech-head">My Tech Stack</h1>
-      <p className="tech-para"> Technologies I've been working with recently</p>
+      <h1 className="tech-head" data-aos="zoom-in" data-aos-duration="1100">
+        My Tech Stack
+      </h1>
+      <p className="tech-para" data-aos="zoom-in" data-aos-duration="1100">
+        {" "}
+        Technologies I've been working with recently
+      </p>
       <div className="container">
         <div className="flex-parent ">
           <div className="flex-child">
-            <img src={Html} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+              src={Html}
+              className="tech-img"
+              alt="image"
+            />
           </div>
           <div className="flex-child">
-            <img src={Css} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-left"
+              data-aos-duration="1500"
+              src={Css}
+              className="tech-img"
+              alt="image"
+            />
           </div>
           <div className="flex-child">
-            <img src={Bootstrap} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+              src={Bootstrap}
+              className="tech-img"
+              alt="image"
+            />
           </div>
           <div className="flex-child">
-            <img src={Js} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-left"
+              data-aos-duration="1500"
+              src={Js}
+              className="tech-img"
+              alt="image"
+            />
           </div>
           <div className="flex-child">
-            <img src={Reactjs} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+              src={Reactjs}
+              className="tech-img"
+              alt="image"
+            />
           </div>
           <div className="flex-child">
-            <img src={Vscode} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-left"
+              data-aos-duration="1500"
+              src={Vscode}
+              className="tech-img"
+              alt="image"
+            />
           </div>
           <div className="flex-child">
-            <img src={Git} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+              src={Git}
+              className="tech-img"
+              alt="image"
+            />
           </div>
           <div className="flex-child">
-            <img src={Github} className="tech-img" alt="image" />
+            <img
+              data-aos="zoom-in-left"
+              data-aos-duration="1500"
+              src={Github}
+              className="tech-img"
+              alt="image"
+            />
           </div>
         </div>
       </div>
