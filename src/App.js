@@ -7,7 +7,7 @@ import Techstack from "./components/Techstack";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "aos/dist/aos.js";
-// import Project from "./components/Project";
+import Project from "./components/Project";
 // import SlideNavbar from "./components/SlideNavbar";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Navbar />
       <Home />
       <Techstack />
-      {/* <Project /> */}
+      <Project />
     </>
   );
 }

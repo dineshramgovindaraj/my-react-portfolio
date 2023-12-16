@@ -34,5 +34,9 @@
   }
   .navbar-toggler-icon {
     background-image: url(../images/toggler-image.png);
+    margin-right: 18px;
+  }
+  .navbar {
+    width: 100%;
   }
 }
