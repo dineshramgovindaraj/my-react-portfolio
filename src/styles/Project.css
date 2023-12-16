@@ -1,12 +1,12 @@
 * {
-  color: white;
+  color: #cccccc;
 }
 .card-flex {
   display: flex;
   justify-content: space-between;
 }
 .card-title {
-  color: white;
+  color: #CCCCCC;
   font-weight: bold;
 }
 .text {
@@ -29,6 +29,9 @@
 }
 .project-img {
   height: 205px;
+}
+.card-common-bg {
+  background-color: #363636;
 }
 .project-head {
   color: var(--Solid-Heading-Dark-mode, #ccc);

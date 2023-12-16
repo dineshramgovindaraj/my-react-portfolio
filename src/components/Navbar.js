@@ -1,6 +1,5 @@
-import React from "react";
 import "../styles/Navbar.css";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <section id="navbar">
@@ -44,26 +43,41 @@ const Navbar = () => {
                 <a className="nav-link nav-text" href="#carousel">
                   Home
                 </a>
+                {/* <Link className="nav-link nav-text" to={"/"}>
+                  Home
+                </Link> */}
               </li>
               <li className="nav-item">
                 <a className="nav-link nav-text" href="#about">
-                  About Us
+                  About
                 </a>
+                {/* <Link className="nav-link nav-text" to={"/about"}>
+                  About
+                </Link> */}
               </li>
               <li className="nav-item">
                 <a className="nav-link nav-text" href="#contact">
-                  Contact
+                  Tech Stack
                 </a>
+                {/* <Link className="nav-link nav-text" to={"/tech-stack"}>
+                  Tech Stack
+                </Link> */}
               </li>
               <li className="nav-item">
                 <a className="nav-link nav-text" href="#review">
-                  Review
+                  Project
                 </a>
+                {/* <Link className="nav-link nav-text" to={"/project"}>
+                  Project
+                </Link> */}
               </li>
               <li className="nav-item">
                 <a className="nav-link nav-text" href="#login">
-                  Login
+                  Contact
                 </a>
+                {/* <Link className="nav-link nav-text" to={"/contact"}>
+                  Contact
+                </Link> */}
               </li>
             </ul>
           </div>

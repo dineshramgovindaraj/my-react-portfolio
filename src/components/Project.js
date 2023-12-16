@@ -22,28 +22,40 @@ const Project = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-sm-12 body-margin">
-            <Card className="body-card">
+            <Card
+              className="body-card"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               <Card.Img variant="top" className="project-img" src={PigGame} />
-              <Card.Body>
-                <Card.Title className="card-title">Pig Game</Card.Title>
-                <Card.Text className="card-text-content">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              <Card.Body className="card-common-bg">
+                <Card.Title className="card-title card-common-bg">
+                  Pig Game
+                </Card.Title>
+                <Card.Text className="card-text-content card-common-bg">
+                  Pig is a dice game where players take turns rolling,
+                  accumulating points. Roll a 1, lose turn's points. Risk or
+                  pass to win. Exciting, unpredictable family fun!
                 </Card.Text>
-                <Card.Text className="text">
-                  <b>Tech Stack:</b>
-                  Html,Css,Js,React,Bootstrap
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Tech Stack:</b>
+                  Html,Css,Js
                 </Card.Text>
-                <div className="card-flex">
+                <div className="card-flex card-common-bg">
                   <Card.Link
                     href="https://pig-game-20910.netlify.app/"
                     target="_blank"
-                    className="logo-text"
+                    className="logo-text card-common-bg"
                   >
-                    <img src={Linking} /> Live Link
+                    <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
-                  <Card.Link href="#" target="_blank" className="logo-text">
-                    <img src={GitLogo} /> <span>&nbsp;</span>
+                  <Card.Link
+                    href="#"
+                    target="_blank"
+                    className="logo-text card-common-bg"
+                  >
+                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
                 </div>
@@ -51,32 +63,44 @@ const Project = () => {
             </Card>
           </div>
           <div className="col-lg-3 col-sm-12 body-margin">
-            <Card className="body-card">
+            <Card
+              className="body-card"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               <Card.Img
                 variant="top"
                 className="project-img"
                 src={FlappyBird}
               />
-              <Card.Body>
-                <Card.Title className="card-title">Flappy Bird</Card.Title>
-                <Card.Text className="card-text-content">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              <Card.Body className="card-common-bg">
+                <Card.Title className="card-title card-common-bg">
+                  Flappy Bird
+                </Card.Title>
+                <Card.Text className="card-text-content card-common-bg">
+                  Flappy Bird, a simple yet addictive computer game, challenges
+                  players to navigate a bird through pipes by tapping the
+                  screen. Infamous for its difficulty and sudden success.
                 </Card.Text>
-                <Card.Text className="text">
-                  <b>Tech Stack:</b>
-                  Html,Css,Js,React,Bootstrap
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Tech Stack:</b>
+                  Html,Css,Js
                 </Card.Text>
-                <div className="card-flex">
+                <div className="card-flex card-common-bg">
                   <Card.Link
                     href="https://flappy-bird-0001.netlify.app/"
-                    className="logo-text"
                     target="_blank"
+                    className="logo-text card-common-bg"
                   >
-                    <img src={Linking} /> Live Link
+                    <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
-                  <Card.Link href="#" target="_blank" className="logo-text">
-                    <img src={GitLogo} /> <span>&nbsp;</span>
+                  <Card.Link
+                    href="#"
+                    target="_blank"
+                    className="logo-text card-common-bg"
+                  >
+                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
                 </div>
@@ -84,32 +108,44 @@ const Project = () => {
             </Card>
           </div>
           <div className="col-lg-3 col-sm-12 body-margin">
-            <Card className="body-card">
+            <Card
+              className="body-card"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               <Card.Img
                 variant="top"
                 className="project-img"
                 src={FormValidation}
               />
-              <Card.Body>
-                <Card.Title className="card-title">Form Validation</Card.Title>
-                <Card.Text className="card-text-content">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              <Card.Body className="card-common-bg">
+                <Card.Title className="card-title card-common-bg">
+                  Form Validation
+                </Card.Title>
+                <Card.Text className="card-text-content card-common-bg">
+                  It ensures accurate user input. Validate fields for format,
+                  completeness, and constraints. JS and HTML offer tools for
+                  validation, enhancing user experience and data integrity.
                 </Card.Text>
-                <Card.Text className="text">
-                  <b>Tech Stack:</b>
-                  Html,Css,Js,React,Bootstrap
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Tech Stack:</b>
+                  Html,Css,Js
                 </Card.Text>
-                <div className="card-flex">
+                <div className="card-flex card-common-bg">
                   <Card.Link
                     href="https://dineshram-formvalidation-js.netlify.app/"
-                    className="logo-text"
                     target="_blank"
+                    className="logo-text card-common-bg"
                   >
-                    <img src={Linking} /> Live Link
+                    <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
-                  <Card.Link href="#" target="_blank" className="logo-text">
-                    <img src={GitLogo} /> <span>&nbsp;</span>
+                  <Card.Link
+                    href="#"
+                    target="_blank"
+                    className="logo-text card-common-bg"
+                  >
+                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
                 </div>
@@ -117,28 +153,40 @@ const Project = () => {
             </Card>
           </div>
           <div className="col-lg-3 col-sm-12 body-margin">
-            <Card className="body-card">
+            <Card
+              className="body-card"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               <Card.Img variant="top" className="project-img" src={Counter} />
-              <Card.Body>
-                <Card.Title className="card-title">Counter</Card.Title>
-                <Card.Text className="card-text-content">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              <Card.Body className="card-common-bg">
+                <Card.Title className="card-title card-common-bg">
+                  Counter
+                </Card.Title>
+                <Card.Text className="card-text-content card-common-bg">
+                  Counting creates order, measures progress, and fosters
+                  understanding. In life's complex symphony, a reliable counter
+                  orchestrates precision, unlocking clarity within chaos.
                 </Card.Text>
-                <Card.Text className="text">
-                  <b>Tech Stack:</b>
-                  Html,Css,Js,React,Bootstrap
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Tech Stack:</b>
+                  Html,Css,Js
                 </Card.Text>
-                <div className="card-flex">
+                <div className="card-flex card-common-bg">
                   <Card.Link
                     href="https://counter-js-0001.netlify.app/"
-                    className="logo-text"
                     target="_blank"
+                    className="logo-text card-common-bg"
                   >
-                    <img src={Linking} /> Live Link
+                    <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
-                  <Card.Link href="#" target="_blank" className="logo-text">
-                    <img src={GitLogo} /> <span>&nbsp;</span>
+                  <Card.Link
+                    href="#"
+                    target="_blank"
+                    className="logo-text card-common-bg"
+                  >
+                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
                 </div>
@@ -146,32 +194,44 @@ const Project = () => {
             </Card>
           </div>
           <div className="col-lg-3 col-sm-12 body-margin">
-            <Card className="body-card">
+            <Card
+              className="body-card"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               <Card.Img
                 variant="top"
                 className="project-img"
                 src={ColorFlipper}
               />
-              <Card.Body>
-                <Card.Title className="card-title">Colour Flipper</Card.Title>
-                <Card.Text className="card-text-content">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              <Card.Body className="card-common-bg">
+                <Card.Title className="card-title card-common-bg">
+                  Color Flipper
+                </Card.Title>
+                <Card.Text className="card-text-content card-common-bg">
+                  A vibrant tool that randomly generates colors, providing
+                  instant inspiration for design projects. Effortlessly explore
+                  endless color combinations with a simple click.
                 </Card.Text>
-                <Card.Text className="text">
-                  <b>Tech Stack:</b>
-                  Html,Css,Js,React,Bootstrap
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Tech Stack:</b>
+                  Html,Css,Js
                 </Card.Text>
-                <div className="card-flex">
+                <div className="card-flex card-common-bg">
                   <Card.Link
                     href="https://colour-flipper-js.netlify.app/"
-                    className="logo-text"
                     target="_blank"
+                    className="logo-text card-common-bg"
                   >
-                    <img src={Linking} /> Live Link
+                    <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
-                  <Card.Link href="#" target="_blank" className="logo-text">
-                    <img src={GitLogo} /> <span>&nbsp;</span>
+                  <Card.Link
+                    href="#"
+                    target="_blank"
+                    className="logo-text card-common-bg"
+                  >
+                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
                 </div>
@@ -179,28 +239,40 @@ const Project = () => {
             </Card>
           </div>
           <div className="col-lg-3 col-sm-12 body-margin">
-            <Card className="body-card">
+            <Card
+              className="body-card"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               <Card.Img variant="top" className="project-img" src={Webpage} />
-              <Card.Body>
-                <Card.Title className="card-title">Web Page</Card.Title>
-                <Card.Text className="card-text-content">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              <Card.Body className="card-common-bg">
+                <Card.Title className="card-title card-common-bg">
+                  Web Page
+                </Card.Title>
+                <Card.Text className="card-text-content card-common-bg">
+                  Elevate your skills with our dynamic e-learning platform.
+                  Access diverse courses anytime. Engaging content, expert
+                  instructors—empower your learning journey today!
                 </Card.Text>
-                <Card.Text className="text">
-                  <b>Tech Stack:</b>
-                  Html,Css,Js,React,Bootstrap
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Tech Stack:</b>
+                  Html,Css,Js,Bootstrap
                 </Card.Text>
-                <div className="card-flex">
+                <div className="card-flex card-common-bg">
                   <Card.Link
                     href="https://learnify-0001.netlify.app/"
-                    className="logo-text"
                     target="_blank"
+                    className="logo-text card-common-bg"
                   >
-                    <img src={Linking} /> Live Link
+                    <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
-                  <Card.Link href="#" target="_blank" className="logo-text">
-                    <img src={GitLogo} /> <span>&nbsp;</span>
+                  <Card.Link
+                    href="#"
+                    target="_blank"
+                    className="logo-text card-common-bg"
+                  >
+                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
                 </div>
