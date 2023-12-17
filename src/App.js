@@ -5,10 +5,12 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Techstack from "./components/Techstack";
 import About from "./components/About";
+import Footer from "./components/FooterDown";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "aos/dist/aos.js";
 import Project from "./components/Project";
+
 // import SlideNavbar from "./components/SlideNavbar";
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
       <Techstack />
       <Project />
       <About />
+      <Footer />
     </>
   );
 }
