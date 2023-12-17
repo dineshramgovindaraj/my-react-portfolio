@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Techstack from "./components/Techstack";
+import About from "./components/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "aos/dist/aos.js";
@@ -28,6 +29,7 @@ function App() {
       <Home />
       <Techstack />
       <Project />
+      <About />
     </>
   );
 }
