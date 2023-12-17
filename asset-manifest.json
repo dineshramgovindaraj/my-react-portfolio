@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.02bdc81e.css",
-    "main.js": "/portfolio-react/static/js/main.2c836fb3.js",
+    "main.css": "/portfolio-react/static/css/main.6d695fde.css",
+    "main.js": "/portfolio-react/static/js/main.814ff0cf.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/pig-game.png": "/portfolio-react/static/media/pig-game.ff9f0514934b85d952f8.png",
     "static/media/avathar-removebg-preview.png": "/portfolio-react/static/media/avathar-removebg-preview.a93414cae5dfecfc53bf.png",
@@ -20,12 +20,12 @@
     "index.html": "/portfolio-react/index.html",
     "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.083c43a3fb7c4f71ae59ca57ea1e39cd.svg",
     "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.d031b6c922ff15bd20637de56de175d3.svg",
-    "main.02bdc81e.css.map": "/portfolio-react/static/css/main.02bdc81e.css.map",
-    "main.2c836fb3.js.map": "/portfolio-react/static/js/main.2c836fb3.js.map",
+    "main.6d695fde.css.map": "/portfolio-react/static/css/main.6d695fde.css.map",
+    "main.814ff0cf.js.map": "/portfolio-react/static/js/main.814ff0cf.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02bdc81e.css",
-    "static/js/main.2c836fb3.js"
+    "static/css/main.6d695fde.css",
+    "static/js/main.814ff0cf.js"
   ]
 }
