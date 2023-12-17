@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.6d695fde.css",
-    "main.js": "/portfolio-react/static/js/main.814ff0cf.js",
+    "main.css": "/portfolio-react/static/css/main.69b38a8a.css",
+    "main.js": "/portfolio-react/static/js/main.d206422d.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
+    "static/media/instagram-new.png": "/portfolio-react/static/media/instagram-new.c6617881517a539eb376.png",
     "static/media/pig-game.png": "/portfolio-react/static/media/pig-game.ff9f0514934b85d952f8.png",
     "static/media/avathar-removebg-preview.png": "/portfolio-react/static/media/avathar-removebg-preview.a93414cae5dfecfc53bf.png",
     "static/media/webpage.png": "/portfolio-react/static/media/webpage.25addaecae8f114e14b0.png",
     "static/media/flappy-bird.png": "/portfolio-react/static/media/flappy-bird.c895640030b04aa44f87.png",
     "static/media/form-validation.png": "/portfolio-react/static/media/form-validation.f7a95cf873aba4d723c3.png",
     "static/media/colour-flipper.png": "/portfolio-react/static/media/colour-flipper.080868b42f13c79e5e8d.png",
+    "static/media/linkedin-new.png": "/portfolio-react/static/media/linkedin-new.ff2d4625f60f1fb565d9.png",
     "static/media/toggler-image.png": "/portfolio-react/static/media/toggler-image.8f26a84fe3f722f4096f.png",
     "static/media/counter.png": "/portfolio-react/static/media/counter.3d928167e04968352157.png",
     "static/media/logos_react.svg": "/portfolio-react/static/media/logos_react.333035e3669f7f049b2df634fbfdbd37.svg",
@@ -20,12 +22,12 @@
     "index.html": "/portfolio-react/index.html",
     "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.083c43a3fb7c4f71ae59ca57ea1e39cd.svg",
     "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.d031b6c922ff15bd20637de56de175d3.svg",
-    "main.6d695fde.css.map": "/portfolio-react/static/css/main.6d695fde.css.map",
-    "main.814ff0cf.js.map": "/portfolio-react/static/js/main.814ff0cf.js.map",
+    "main.69b38a8a.css.map": "/portfolio-react/static/css/main.69b38a8a.css.map",
+    "main.d206422d.js.map": "/portfolio-react/static/js/main.d206422d.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d695fde.css",
-    "static/js/main.814ff0cf.js"
+    "static/css/main.69b38a8a.css",
+    "static/js/main.d206422d.js"
   ]
 }
