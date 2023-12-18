@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.69b38a8a.css",
-    "main.js": "/portfolio-react/static/js/main.d206422d.js",
+    "main.css": "/portfolio-react/static/css/main.3b30da39.css",
+    "main.js": "/portfolio-react/static/js/main.2948af91.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/instagram-new.png": "/portfolio-react/static/media/instagram-new.c6617881517a539eb376.png",
     "static/media/pig-game.png": "/portfolio-react/static/media/pig-game.ff9f0514934b85d952f8.png",
@@ -22,12 +22,12 @@
     "index.html": "/portfolio-react/index.html",
     "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.083c43a3fb7c4f71ae59ca57ea1e39cd.svg",
     "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.d031b6c922ff15bd20637de56de175d3.svg",
-    "main.69b38a8a.css.map": "/portfolio-react/static/css/main.69b38a8a.css.map",
-    "main.d206422d.js.map": "/portfolio-react/static/js/main.d206422d.js.map",
+    "main.3b30da39.css.map": "/portfolio-react/static/css/main.3b30da39.css.map",
+    "main.2948af91.js.map": "/portfolio-react/static/js/main.2948af91.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69b38a8a.css",
-    "static/js/main.d206422d.js"
+    "static/css/main.3b30da39.css",
+    "static/js/main.2948af91.js"
   ]
 }
