@@ -15,21 +15,41 @@ const FooterDown = () => {
         </p>
         <div className="footer-img-flex ">
           <div className="bg-common">
-            <img
-              src={Linkedin}
-              className="footer-img"
-              style={{ height: "34px" }}
-            />
+            <a
+              href="https://www.linkedin.com/in/dinesh-ram-govindaraj/"
+              className="bg-common"
+            >
+              <img
+                src={Linkedin}
+                className="footer-img"
+                style={{ height: "34px" }}
+                target="_blank"
+              />
+            </a>
           </div>
+
           <div className="bg-common">
-            <img src={Github} className="footer-img" />
+            <a
+              href="https://github.com/dineshramGovindaraj"
+              className="bg-common"
+              target="_blank"
+            >
+              <img src={Github} className="footer-img" />
+            </a>
           </div>
+
           <div className="bg-common">
-            <img
-              src={Instagram}
-              className="footer-img"
-              style={{ height: "34px" }}
-            />
+            <a
+              href="https://www.instagram.com/___dinesh_ram___?igshid=MTNiYzNiMzkwZA=="
+              className="bg-common"
+              target="_blank"
+            >
+              <img
+                src={Instagram}
+                className="footer-img"
+                style={{ height: "34px" }}
+              />
+            </a>
           </div>
         </div>
         <div className="footer-text-div">

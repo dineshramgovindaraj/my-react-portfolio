@@ -11,7 +11,12 @@ import Vscode from "../images/vscode-icons_file-type-vscode.svg";
 const Techstack = () => {
   return (
     <>
-      <h1 className="tech-head" data-aos="zoom-in" data-aos-duration="1100">
+      <h1
+        id="tech-stack"
+        className="tech-head"
+        data-aos="zoom-in"
+        data-aos-duration="1100"
+      >
         My Tech Stack
       </h1>
       <p className="tech-para" data-aos="zoom-in" data-aos-duration="1100">

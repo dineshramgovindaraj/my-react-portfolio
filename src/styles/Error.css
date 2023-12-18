@@ -1,0 +1,14 @@
+.error-head {
+  text-align: center;
+  margin-top: 100px;
+}
+.error-para {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+  .error-para {
+    font-size: 0.9rem;
+  }
+}

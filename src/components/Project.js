@@ -12,7 +12,12 @@ import Webpage from "../images/webpage.png";
 const Project = () => {
   return (
     <>
-      <h1 className="project-head" data-aos="zoom-in" data-aos-duration="1100">
+      <h1
+        id="project"
+        className="project-head"
+        data-aos="zoom-in"
+        data-aos-duration="1100"
+      >
         Projects
       </h1>
       <p className="project-para" data-aos="zoom-in" data-aos-duration="1100">
@@ -50,7 +55,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href="#"
+                    href={"/page-not-found"}
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -95,7 +100,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href="#"
+                    href={"/page-not-found"}
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -140,7 +145,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href="#"
+                    href={"/page-not-found"}
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -181,7 +186,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href="#"
+                    href={"/page-not-found"}
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -226,7 +231,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href="#"
+                    href={"/page-not-found"}
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -267,7 +272,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href="#"
+                    href={"/page-not-found"}
                     target="_blank"
                     className="logo-text card-common-bg"
                   >

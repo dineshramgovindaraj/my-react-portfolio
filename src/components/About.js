@@ -3,7 +3,12 @@ import "../styles/About.css";
 const About = () => {
   return (
     <>
-      <h1 className="about-head" data-aos="zoom-in" data-aos-duration="1100">
+      <h1
+        id="about"
+        className="about-head"
+        data-aos="zoom-in"
+        data-aos-duration="1100"
+      >
         About
       </h1>
       <div className="container">

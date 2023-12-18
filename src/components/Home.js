@@ -2,11 +2,12 @@ import React from "react";
 import "../styles/Home.css";
 import Avathar from "../images/avathar-removebg-preview.png";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
-      <div className="container">
+      <div id="home" className="container">
         <div className="home-flex row">
           <div
             data-aos="flip-right"
@@ -32,7 +33,9 @@ const Home = () => {
               />
             </h1>
             <div>
+              {/* <Link to={"/page-not-found"}> */}
               <button className="btn btn-secondary cv-btn">Download CV</button>
+              {/* </Link> */}
             </div>
           </div>
         </div>
