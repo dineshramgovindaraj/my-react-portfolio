@@ -7,8 +7,8 @@ import PigGame from "../images/pig-game.png";
 import FlappyBird from "../images/flappy-bird.png";
 import ColorFlipper from "../images/colour-flipper.png";
 import Counter from "../images/counter.png";
-import FormValidation from "../images/form-validation.png";
-import Webpage from "../images/webpage.png";
+import TodoList from "../images/todo-list.png";
+import Crud from "../images/crud.png";
 const Project = () => {
   return (
     <>
@@ -55,7 +55,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href={"/page-not-found"}
+                    href="https://github.com/dineshramGovindaraj/pig-game"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -100,7 +100,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href={"/page-not-found"}
+                    href="https://github.com/dineshramGovindaraj/flappy-bird"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -118,34 +118,30 @@ const Project = () => {
               data-aos="zoom-in"
               data-aos-duration="900"
             >
-              <Card.Img
-                variant="top"
-                className="project-img"
-                src={FormValidation}
-              />
+              <Card.Img variant="top" className="project-img" src={Crud} />
               <Card.Body className="card-common-bg">
                 <Card.Title className="card-title card-common-bg">
-                  Form Validation
+                  Crud Operation
                 </Card.Title>
                 <Card.Text className="card-text-content card-common-bg">
-                  It ensures accurate user input. Validate fields for format,
-                  completeness, and constraints. JS and HTML offer tools for
-                  validation, enhancing user experience and data integrity.
+                  CRUD operations are fundamental actions. They involve
+                  creating, retrieving, updating, and deleting data, enabling
+                  efficient data management in applications.
                 </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
-                  Html,Css,Js
+                  Html,Css,Js,Reactjs
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
-                    href="https://dineshram-formvalidation-js.netlify.app/"
+                    href=" https://dineshramgovindaraj.github.io/react-crud/"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href={"/page-not-found"}
+                    href="https://github.com/dineshramGovindaraj/react-crud"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -163,30 +159,30 @@ const Project = () => {
               data-aos="zoom-in"
               data-aos-duration="900"
             >
-              <Card.Img variant="top" className="project-img" src={Counter} />
+              <Card.Img variant="top" className="project-img" src={TodoList} />
               <Card.Body className="card-common-bg">
                 <Card.Title className="card-title card-common-bg">
-                  Counter
+                  Todo List
                 </Card.Title>
                 <Card.Text className="card-text-content card-common-bg">
-                  Counting creates order, measures progress, and fosters
-                  understanding. In life's complex symphony, a reliable counter
-                  orchestrates precision, unlocking clarity within chaos.
+                  A todo list is a simple organizational tool where users jot
+                  down tasks to be completed, helping manage priorities and
+                  track accomplishments efficiently for increased productivity.
                 </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
-                  Html,Css,Js
+                  Html,Css,Js,Reactjs
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
-                    href="https://counter-js-0001.netlify.app/"
+                    href="https://dineshramgovindaraj.github.io/react-todo-list/"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href={"/page-not-found"}
+                    href="https://github.com/dineshramGovindaraj/react-todo-list"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -231,7 +227,7 @@ const Project = () => {
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href={"/page-not-found"}
+                    href="https://github.com/dineshramGovindaraj/color-flipper"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -249,30 +245,30 @@ const Project = () => {
               data-aos="zoom-in"
               data-aos-duration="900"
             >
-              <Card.Img variant="top" className="project-img" src={Webpage} />
+              <Card.Img variant="top" className="project-img" src={Counter} />
               <Card.Body className="card-common-bg">
                 <Card.Title className="card-title card-common-bg">
-                  Web Page
+                  Counter
                 </Card.Title>
                 <Card.Text className="card-text-content card-common-bg">
-                  Elevate your skills with our dynamic e-learning platform.
-                  Access diverse courses anytime. Engaging content, expert
-                  instructors—empower your learning journey today!
+                  Counting creates order, measures progress, and fosters
+                  understanding. In life's complex symphony, a reliable counter
+                  orchestrates precision, unlocking clarity within chaos.
                 </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
-                  Html,Css,Js,Bootstrap
+                  Html,Css,Js
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
-                    href="https://learnify-0001.netlify.app/"
+                    href="https://counter-js-0001.netlify.app/"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
                     <img src={Linking} className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
-                    href={"/page-not-found"}
+                    href="https://github.com/dineshramGovindaraj/counter"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >

@@ -31,7 +31,7 @@ function App() {
       <Techstack />
       <Project />
       <About />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );
