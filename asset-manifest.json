@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.3b30da39.css",
-    "main.js": "/portfolio-react/static/js/main.4d394bee.js",
+    "main.css": "/portfolio-react/static/css/main.cab4bdbd.css",
+    "main.js": "/portfolio-react/static/js/main.be911c86.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/instagram-new.png": "/portfolio-react/static/media/instagram-new.c6617881517a539eb376.png",
     "static/media/pig-game.png": "/portfolio-react/static/media/pig-game.ff9f0514934b85d952f8.png",
+    "static/media/close.png": "/portfolio-react/static/media/close.172384d8956f611fb08c.png",
     "static/media/avathar-removebg-preview.png": "/portfolio-react/static/media/avathar-removebg-preview.a93414cae5dfecfc53bf.png",
     "static/media/crud.png": "/portfolio-react/static/media/crud.54306a19f1bd80fa0b63.png",
     "static/media/flappy-bird.png": "/portfolio-react/static/media/flappy-bird.c895640030b04aa44f87.png",
@@ -13,21 +14,21 @@
     "static/media/linkedin-new.png": "/portfolio-react/static/media/linkedin-new.ff2d4625f60f1fb565d9.png",
     "static/media/toggler-image.png": "/portfolio-react/static/media/toggler-image.8f26a84fe3f722f4096f.png",
     "static/media/counter.png": "/portfolio-react/static/media/counter.3d928167e04968352157.png",
-    "static/media/logos_react.svg": "/portfolio-react/static/media/logos_react.333035e3669f7f049b2df634fbfdbd37.svg",
-    "static/media/vscode-icons_file-type-vscode.svg": "/portfolio-react/static/media/vscode-icons_file-type-vscode.849c4bba27cc39b0d41685b59a2902a7.svg",
-    "static/media/logos_bootstrap.svg": "/portfolio-react/static/media/logos_bootstrap.49a26fad2bad0f4c8be13b1a6b4a338a.svg",
-    "static/media/vscode-icons_file-type-js-official.svg": "/portfolio-react/static/media/vscode-icons_file-type-js-official.82f061cf6e5f1d1b94614e3f996f4e1a.svg",
-    "static/media/logos_git-icon.svg": "/portfolio-react/static/media/logos_git-icon.3980f6f84bcd426912c59f374aa6c0f5.svg",
-    "static/media/akar-icons_github-fill.svg": "/portfolio-react/static/media/akar-icons_github-fill.bdfa23b12fc11e1d78a562da56d92108.svg",
+    "static/media/logos_react.svg": "/portfolio-react/static/media/logos_react.8e1b2eea1adc9beaf816eb89d93ab2ca.svg",
+    "static/media/vscode-icons_file-type-vscode.svg": "/portfolio-react/static/media/vscode-icons_file-type-vscode.1660b5e25b769a196d9714b3af9c0c05.svg",
+    "static/media/logos_bootstrap.svg": "/portfolio-react/static/media/logos_bootstrap.9813a7166cf0643c799bee4711b13952.svg",
+    "static/media/vscode-icons_file-type-js-official.svg": "/portfolio-react/static/media/vscode-icons_file-type-js-official.e49cede45fe2c8bb69d95efb5090c095.svg",
+    "static/media/logos_git-icon.svg": "/portfolio-react/static/media/logos_git-icon.52d95297a6e0368f3d05fbfb2ea675d0.svg",
+    "static/media/akar-icons_github-fill.svg": "/portfolio-react/static/media/akar-icons_github-fill.8b11b9c642c5e07fbb073e38f7c35316.svg",
     "index.html": "/portfolio-react/index.html",
-    "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.083c43a3fb7c4f71ae59ca57ea1e39cd.svg",
-    "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.d031b6c922ff15bd20637de56de175d3.svg",
-    "main.3b30da39.css.map": "/portfolio-react/static/css/main.3b30da39.css.map",
-    "main.4d394bee.js.map": "/portfolio-react/static/js/main.4d394bee.js.map",
+    "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.2b66a66d815100932da978ebdb1c1783.svg",
+    "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.fa820d8bab4e990b09f2b754359b2a78.svg",
+    "main.cab4bdbd.css.map": "/portfolio-react/static/css/main.cab4bdbd.css.map",
+    "main.be911c86.js.map": "/portfolio-react/static/js/main.be911c86.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b30da39.css",
-    "static/js/main.4d394bee.js"
+    "static/css/main.cab4bdbd.css",
+    "static/js/main.be911c86.js"
   ]
 }
