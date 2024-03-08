@@ -2,9 +2,12 @@ import React from "react";
 import "../styles/Home.css";
 import Avathar from "../images/avathar-removebg-preview.png";
 import { TypeAnimation } from "react-type-animation";
-import { Link } from "react-router-dom";
 
 const Home = () => {
+  const dwAlert = () => {
+    alert("CV Not added");
+  };
+
   return (
     <>
       <div id="home" className="container">
@@ -34,7 +37,9 @@ const Home = () => {
             </h1>
             <div>
               {/* <Link to={"/page-not-found"}> */}
-              <button className="btn btn-secondary cv-btn">Download CV</button>
+              <button className="btn btn-secondary cv-btn" onClick={dwAlert}>
+                Download CV
+              </button>
               {/* </Link> */}
             </div>
           </div>

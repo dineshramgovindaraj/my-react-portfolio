@@ -21,6 +21,9 @@
 .navbar-nav .nav-link:visited {
   color: white;
 }
+.modal-header .btn-close {
+  background-image: url(../images/close.png);
+}
 @media only screen and (max-width: 600px) {
   .nav-text {
     padding: 0px 0px;
@@ -41,5 +44,57 @@
   }
   .navbar {
     width: 100%;
+  }
+}
+
+/* CONTACT  */
+.form-content {
+  width: 50%;
+  margin: 20px 300px 150px 300px;
+}
+/* .contact-head {
+  color: var(--Solid-Heading-Dark-mode, #ccc);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 50px;
+} */
+.contact-btn {
+  background-color: #118eb4;
+  border: 0px;
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+}
+.body-model {
+  padding: 0px;
+}
+.form-text {
+  margin-left: -300px;
+  margin-right: 40px;
+}
+@media (max-width: 480px) {
+  .form-content {
+    width: 70%;
+    margin: 20px 62px;
+    margin-bottom: 100px;
+  }
+  .contact-head {
+    font-size: 35px;
+  }
+  .contact-btn {
+    height: 40px;
+    width: 150px;
+  }
+  .btn-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-text {
+    margin-left: -10px;
+    margin-right: 0px;
   }
 }

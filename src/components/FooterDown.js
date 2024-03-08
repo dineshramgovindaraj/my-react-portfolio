@@ -18,12 +18,15 @@ const FooterDown = () => {
             <a
               href="https://www.linkedin.com/in/dinesh-ram-govindaraj/"
               className="bg-common"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={Linkedin}
                 className="footer-img"
                 style={{ height: "34px" }}
                 target="_blank"
+                alt="linkedin"
               />
             </a>
           </div>
@@ -33,8 +36,9 @@ const FooterDown = () => {
               href="https://github.com/dineshramGovindaraj"
               className="bg-common"
               target="_blank"
+              rel="noreferrer"
             >
-              <img src={Github} className="footer-img" />
+              <img src={Github} className="footer-img" alt="github" />
             </a>
           </div>
 
@@ -43,11 +47,13 @@ const FooterDown = () => {
               href="https://www.instagram.com/___dinesh_ram___?igshid=MTNiYzNiMzkwZA=="
               className="bg-common"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={Instagram}
                 className="footer-img"
                 style={{ height: "34px" }}
+                alt="instagram"
               />
             </a>
           </div>

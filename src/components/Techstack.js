@@ -31,7 +31,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Html}
               className="tech-img"
-              alt="image"
+              alt="a html"
             />
           </div>
           <div className="flex-child">
@@ -40,7 +40,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Css}
               className="tech-img"
-              alt="image"
+              alt="a css"
             />
           </div>
           <div className="flex-child">
@@ -49,7 +49,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Bootstrap}
               className="tech-img"
-              alt="image"
+              alt="a bs"
             />
           </div>
           <div className="flex-child">
@@ -58,7 +58,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Js}
               className="tech-img"
-              alt="image"
+              alt="a js"
             />
           </div>
           <div className="flex-child">
@@ -67,7 +67,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Reactjs}
               className="tech-img"
-              alt="image"
+              alt="rjs"
             />
           </div>
           <div className="flex-child">
@@ -76,7 +76,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Vscode}
               className="tech-img"
-              alt="image"
+              alt="vs"
             />
           </div>
           <div className="flex-child">
@@ -85,7 +85,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Git}
               className="tech-img"
-              alt="image"
+              alt="git"
             />
           </div>
           <div className="flex-child">
@@ -94,7 +94,7 @@ const Techstack = () => {
               data-aos-duration="1500"
               src={Github}
               className="tech-img"
-              alt="image"
+              alt="hub"
             />
           </div>
         </div>

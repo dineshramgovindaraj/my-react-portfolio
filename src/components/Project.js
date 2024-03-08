@@ -10,6 +10,9 @@ import Counter from "../images/counter.png";
 import TodoList from "../images/todo-list.png";
 import Crud from "../images/crud.png";
 const Project = () => {
+  const projectAlert = () => {
+    alert("Document for this project is not added");
+  };
   return (
     <>
       <h1
@@ -37,14 +40,18 @@ const Project = () => {
                 <Card.Title className="card-title card-common-bg">
                   Pig Game
                 </Card.Title>
-                <Card.Text className="card-text-content card-common-bg">
-                  Pig is a dice game where players take turns rolling,
-                  accumulating points. Roll a 1, lose turn's points. Risk or
-                  pass to win. Exciting, unpredictable family fun!
-                </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
                   Html,Css,Js
+                </Card.Text>
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Document : </b>
+                  <a
+                    href="https://pig-game-00001.netlify.app"
+                    className="doc-link"
+                  >
+                    Click Here
+                  </a>
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
@@ -82,14 +89,16 @@ const Project = () => {
                 <Card.Title className="card-title card-common-bg">
                   Flappy Bird
                 </Card.Title>
-                <Card.Text className="card-text-content card-common-bg">
-                  Flappy Bird, a simple yet addictive computer game, challenges
-                  players to navigate a bird through pipes by tapping the
-                  screen. Infamous for its difficulty and sudden success.
-                </Card.Text>
+
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
                   Html,Css,Js
+                </Card.Text>
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Document : </b>
+                  <a onClick={projectAlert} className="doc-link">
+                    Click Here
+                  </a>
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
@@ -123,14 +132,16 @@ const Project = () => {
                 <Card.Title className="card-title card-common-bg">
                   Crud Operation
                 </Card.Title>
-                <Card.Text className="card-text-content card-common-bg">
-                  CRUD operations are fundamental actions. They involve
-                  creating, retrieving, updating, and deleting data, enabling
-                  efficient data management in applications.
-                </Card.Text>
+
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
                   Html,Css,Js,Reactjs
+                </Card.Text>
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Document : </b>
+                  <a href="https://crud-00001.netlify.app" className="doc-link">
+                    Click Here
+                  </a>
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
@@ -164,14 +175,16 @@ const Project = () => {
                 <Card.Title className="card-title card-common-bg">
                   Todo List
                 </Card.Title>
-                <Card.Text className="card-text-content card-common-bg">
-                  A todo list is a simple organizational tool where users jot
-                  down tasks to be completed, helping manage priorities and
-                  track accomplishments efficiently for increased productivity.
-                </Card.Text>
+
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
                   Html,Css,Js,Reactjs
+                </Card.Text>
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Document : </b>
+                  <a href="https://todo-00001.netlify.app" className="doc-link">
+                    Click Here
+                  </a>
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
@@ -209,14 +222,18 @@ const Project = () => {
                 <Card.Title className="card-title card-common-bg">
                   Color Flipper
                 </Card.Title>
-                <Card.Text className="card-text-content card-common-bg">
-                  A vibrant tool that randomly generates colors, providing
-                  instant inspiration for design projects. Effortlessly explore
-                  endless color combinations with a simple click.
-                </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
                   Html,Css,Js
+                </Card.Text>
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Document : </b>
+                  <a
+                    href="https://colour-flipper-0001.netlify.app"
+                    className="doc-link"
+                  >
+                    Click Here
+                  </a>
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
@@ -250,14 +267,16 @@ const Project = () => {
                 <Card.Title className="card-title card-common-bg">
                   Counter
                 </Card.Title>
-                <Card.Text className="card-text-content card-common-bg">
-                  Counting creates order, measures progress, and fosters
-                  understanding. In life's complex symphony, a reliable counter
-                  orchestrates precision, unlocking clarity within chaos.
-                </Card.Text>
+
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
                   Html,Css,Js
+                </Card.Text>
+                <Card.Text className="text card-common-bg">
+                  <b className="card-common-bg">Document : </b>
+                  <a onClick={projectAlert} className="doc-link">
+                    Click Here
+                  </a>
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link

@@ -4,7 +4,6 @@ import Form from "react-bootstrap/Form";
 import "../styles/Contact.css";
 const Contact = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -29,6 +28,7 @@ const Contact = () => {
     alert("Thankyou for reaching out me");
   };
 
+
   return (
     <>
       <h1
@@ -39,7 +39,7 @@ const Contact = () => {
       >
         Contact
       </h1>
-      <div className=" form-content">
+      <div className="form-content">
         <Form ref={form} onSubmit={sendEmail}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>
@@ -60,7 +60,7 @@ const Contact = () => {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea</Form.Label>
+            <Form.Label>Message</Form.Label>
             <Form.Control
               as="textarea"
               placeholder="Message..."
@@ -82,7 +82,6 @@ const Contact = () => {
           </div>
         </Form>
       </div>
-      {/* <FooterDown /> */}
     </>
   );
 };

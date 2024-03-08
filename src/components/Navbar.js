@@ -1,30 +1,53 @@
-import "../styles/Navbar.css";
+import { useState } from "react";
+import Modal from "react-bootstrap/Modal";
 import React, { useRef } from "react";
-import { BrowserRouter, Link } from "react-router-dom";
-// import Home from "../components/Home";
-// import Techstack from "../components/Techstack";
-// import About from "../components/About";
-// import Contact from "../components/Contact";
-// import Project from "../components/Project";
-// import Footer from "./components/FooterDown";
+import emailjs from "@emailjs/browser";
+import Form from "react-bootstrap/Form";
+import "../styles/Navbar.css";
+
 const Navbar = () => {
-  // const homeRef = useRef(null);
-  // const aboutRef = useRef(null);
-  // const techStackRef = useRef(null);
-  // const projectRef = useRef(null);
-  // const contactRef = useRef(null);
-  // const scrollTo = (ref) => {
-  //   ref.current.scrollIntoView({ behavior: "smooth" });
-  // };
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_bwz66gl",
+        "template_jexzh1c",
+        form.current,
+        "-Fxoc4QKMaMf6lCEX"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  const submittedAlert = () => {
+    alert("Thankyou for reaching out me");
+  };
+
   return (
     <>
-      {/* <BrowserRouter> */}
       <section id="navbar">
         <nav
           className="navbar navbar-expand-lg fixed-top"
           style={{ backgroundColor: "black" }}
         >
-          <a className="navbar-brand" style={{ color: "white" }}>
+          <a
+            className="navbar-brand"
+            href="https://dineshramgovindaraj.github.io/portfolio-react/"
+            style={{ color: "white" }}
+          >
             <b>Dinesh Ram</b>
           </a>
           <button
@@ -59,48 +82,101 @@ const Navbar = () => {
                   <a className="nav-link nav-text" href="#home">
                     Home
                   </a>
-                  {/* <Link className="nav-link nav-text" to="/#home">
-                      Home
-                    </Link> */}
                 </li>
                 <li className="nav-item">
                   <a className="nav-link nav-text" href="#about">
                     About
                   </a>
-                  {/* <Link className="nav-link nav-text" to="/#about">
-                      About
-                    </Link> */}
                 </li>
                 <li className="nav-item">
                   <a className="nav-link nav-text" href="#tech-stack">
                     Tech Stack
                   </a>
-                  {/* <Link className="nav-link nav-text" to="/#tech-stack">
-                      Tech Stack
-                    </Link> */}
                 </li>
                 <li className="nav-item">
                   <a className="nav-link nav-text" href="#project">
                     Project
                   </a>
-                  {/* <Link className="nav-link nav-text" to="/#project">
-                      Project
-                    </Link> */}
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link nav-text" href="#contact">
+                  <a
+                    className="nav-link nav-text "
+                    variant="primary"
+                    onClick={handleShow}
+                    href="#contact"
+                  >
                     Contact
                   </a>
-                  {/* <Link className="nav-link nav-text" to="/contact">
-                    Contact
-                  </Link> */}
+
+                  <Modal show={show} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>Contact</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body className="body-model">
+                      <div className=" form-content">
+                        <Form
+                          ref={form}
+                          className="form-text"
+                          onSubmit={sendEmail}
+                        >
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Form.Label>Name</Form.Label>
+                            <Form.Control
+                              type="text"
+                              placeholder="Enter your name"
+                              name="from_name"
+                              required
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Form.Label>Email address</Form.Label>
+                            <Form.Control
+                              type="email"
+                              placeholder="abc@gmail.com"
+                              name="from_email"
+                              required
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlTextarea1"
+                          >
+                            <Form.Label>Message</Form.Label>
+                            <Form.Control
+                              as="textarea"
+                              placeholder="Message..."
+                              rows={3}
+                              name="message"
+                              required
+                            />
+                          </Form.Group>
+                          <div className="btn-flex">
+                            <div>
+                              <button
+                                className="btn btn-secondary contact-btn"
+                                onClick={submittedAlert}
+                                value="Send"
+                              >
+                                Submit
+                              </button>
+                            </div>
+                          </div>
+                        </Form>
+                      </div>
+                    </Modal.Body>
+                  </Modal>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </section>
-      {/* </BrowserRouter> */}
     </>
   );
 };
