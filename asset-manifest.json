@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.cab4bdbd.css",
-    "main.js": "/portfolio-react/static/js/main.be911c86.js",
+    "main.js": "/portfolio-react/static/js/main.66c7e537.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/instagram-new.png": "/portfolio-react/static/media/instagram-new.c6617881517a539eb376.png",
     "static/media/pig-game.png": "/portfolio-react/static/media/pig-game.ff9f0514934b85d952f8.png",
@@ -24,11 +24,11 @@
     "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.2b66a66d815100932da978ebdb1c1783.svg",
     "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.fa820d8bab4e990b09f2b754359b2a78.svg",
     "main.cab4bdbd.css.map": "/portfolio-react/static/css/main.cab4bdbd.css.map",
-    "main.be911c86.js.map": "/portfolio-react/static/js/main.be911c86.js.map",
+    "main.66c7e537.js.map": "/portfolio-react/static/js/main.66c7e537.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cab4bdbd.css",
-    "static/js/main.be911c86.js"
+    "static/js/main.66c7e537.js"
   ]
 }
