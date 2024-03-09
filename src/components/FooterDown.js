@@ -3,8 +3,8 @@ import "../styles/Footer.css";
 import Github from "../images/footer-git.png";
 import Linkedin from "../images/linkedin-new.png";
 import Instagram from "../images/instagram-new.png";
-
 const FooterDown = () => {
+  
   return (
     <>
       <section id="footer">

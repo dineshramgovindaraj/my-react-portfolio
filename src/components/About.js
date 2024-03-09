@@ -56,7 +56,7 @@ const About = () => {
               </tr>
               <tr>
                 <td className="about-question">Phone No</td>
-                <td className="about-answer">+91 63821 83872</td>
+                <td className="about-answer">+91 63*** ***72</td>
               </tr>
             </table>
           </div>

@@ -59,14 +59,23 @@ const Project = () => {
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={Linking} className="card-common-bg" /> Live Link
+                    <img
+                      src={Linking}
+                      className="card-common-bg"
+                      alt="inkedin"
+                    />{" "}
+                    Live Link
                   </Card.Link>
                   <Card.Link
                     href="https://github.com/dineshramGovindaraj/pig-game"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <img
+                      src={GitLogo}
+                      className="card-common-bg"
+                      alt="github"
+                    />{" "}
                     <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
@@ -96,7 +105,7 @@ const Project = () => {
                 </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Document : </b>
-                  <a onClick={projectAlert} className="doc-link">
+                  <a onClick={projectAlert} href="error" className="doc-link">
                     Click Here
                   </a>
                 </Card.Text>
@@ -106,14 +115,14 @@ const Project = () => {
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={Linking} className="card-common-bg" /> Live Link
+                    <img src={Linking} alt="linking" className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
                     href="https://github.com/dineshramGovindaraj/flappy-bird"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <img src={GitLogo} alt="gitlogo" className="card-common-bg" />{" "}
                     <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
@@ -149,14 +158,14 @@ const Project = () => {
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={Linking} className="card-common-bg" /> Live Link
+                    <img src={Linking} alt="linking" className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
                     href="https://github.com/dineshramGovindaraj/react-crud"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <img src={GitLogo} alt="gitlogo" className="card-common-bg" />{" "}
                     <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
@@ -192,14 +201,14 @@ const Project = () => {
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={Linking} className="card-common-bg" /> Live Link
+                    <img src={Linking} alt="linking" className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
                     href="https://github.com/dineshramGovindaraj/react-todo-list"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <img src={GitLogo} alt="gitlogo" className="card-common-bg" />{" "}
                     <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
@@ -241,14 +250,14 @@ const Project = () => {
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={Linking} className="card-common-bg" /> Live Link
+                    <img src={Linking} alt="linking" className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
                     href="https://github.com/dineshramGovindaraj/color-flipper"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <img src={GitLogo} alt="gitlogo" className="card-common-bg" />{" "}
                     <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>
@@ -274,7 +283,7 @@ const Project = () => {
                 </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Document : </b>
-                  <a onClick={projectAlert} className="doc-link">
+                  <a onClick={projectAlert} href="error" className="doc-link">
                     Click Here
                   </a>
                 </Card.Text>
@@ -284,14 +293,14 @@ const Project = () => {
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={Linking} className="card-common-bg" /> Live Link
+                    <img src={Linking} alt="linking" className="card-common-bg" /> Live Link
                   </Card.Link>
                   <Card.Link
                     href="https://github.com/dineshramGovindaraj/counter"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
-                    <img src={GitLogo} className="card-common-bg" />{" "}
+                    <img src={GitLogo} alt="gitlogo" className="card-common-bg" />{" "}
                     <span className="card-common-bg">&nbsp;</span>
                     View Code
                   </Card.Link>

@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Form from "react-bootstrap/Form";
 import "../styles/Navbar.css";
+// import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -36,6 +37,13 @@ const Navbar = () => {
     alert("Thankyou for reaching out me");
   };
 
+  // const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 5000);
+  // }, []);
   return (
     <>
       <section id="navbar">
