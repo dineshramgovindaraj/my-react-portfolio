@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.cab4bdbd.css",
-    "main.js": "/portfolio-react/static/js/main.66c7e537.js",
+    "main.css": "/portfolio-react/static/css/main.bde1f203.css",
+    "main.js": "/portfolio-react/static/js/main.b2d5dae6.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/instagram-new.png": "/portfolio-react/static/media/instagram-new.c6617881517a539eb376.png",
+    "static/media/quiz.png": "/portfolio-react/static/media/quiz.046c66849a1f06c078db.png",
     "static/media/pig-game.png": "/portfolio-react/static/media/pig-game.ff9f0514934b85d952f8.png",
     "static/media/close.png": "/portfolio-react/static/media/close.172384d8956f611fb08c.png",
     "static/media/avathar-removebg-preview.png": "/portfolio-react/static/media/avathar-removebg-preview.a93414cae5dfecfc53bf.png",
     "static/media/crud.png": "/portfolio-react/static/media/crud.54306a19f1bd80fa0b63.png",
+    "static/media/mongodb.png": "/portfolio-react/static/media/mongodb.c20e1bc7e958c8db307f.png",
     "static/media/flappy-bird.png": "/portfolio-react/static/media/flappy-bird.c895640030b04aa44f87.png",
     "static/media/todo-list.png": "/portfolio-react/static/media/todo-list.0e4b664a4582ebbe8f31.png",
     "static/media/colour-flipper.png": "/portfolio-react/static/media/colour-flipper.080868b42f13c79e5e8d.png",
+    "static/media/expressjs.png": "/portfolio-react/static/media/expressjs.39a0f4c3d981885c64f8.png",
     "static/media/linkedin-new.png": "/portfolio-react/static/media/linkedin-new.ff2d4625f60f1fb565d9.png",
     "static/media/toggler-image.png": "/portfolio-react/static/media/toggler-image.8f26a84fe3f722f4096f.png",
     "static/media/counter.png": "/portfolio-react/static/media/counter.3d928167e04968352157.png",
@@ -23,12 +26,12 @@
     "index.html": "/portfolio-react/index.html",
     "static/media/vscode-icons_file-type-css.svg": "/portfolio-react/static/media/vscode-icons_file-type-css.2b66a66d815100932da978ebdb1c1783.svg",
     "static/media/vscode-icons_file-type-html.svg": "/portfolio-react/static/media/vscode-icons_file-type-html.fa820d8bab4e990b09f2b754359b2a78.svg",
-    "main.cab4bdbd.css.map": "/portfolio-react/static/css/main.cab4bdbd.css.map",
-    "main.66c7e537.js.map": "/portfolio-react/static/js/main.66c7e537.js.map",
+    "main.bde1f203.css.map": "/portfolio-react/static/css/main.bde1f203.css.map",
+    "main.b2d5dae6.js.map": "/portfolio-react/static/js/main.b2d5dae6.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cab4bdbd.css",
-    "static/js/main.66c7e537.js"
+    "static/css/main.bde1f203.css",
+    "static/js/main.b2d5dae6.js"
   ]
 }
