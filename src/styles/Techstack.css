@@ -29,6 +29,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.tech-img-exp {
+  width: 120px;
+}
+.tech-img-mdb{
+  width: 120px;
+}
 @media (max-width: 480px) {
   .tech-head {
     font-size: 35px;
@@ -52,5 +58,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .tech-img-exp {
+    width: auto;
+  }
+  .tech-img-mdb{
+    width: auto;
   }
 }
