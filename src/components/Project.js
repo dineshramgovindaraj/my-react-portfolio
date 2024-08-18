@@ -9,7 +9,8 @@ import ColorFlipper from "../images/colour-flipper.png";
 import Counter from "../images/counter.png";
 import TodoList from "../images/todo-list.png";
 import Crud from "../images/crud.png";
-import Quiz from "../images/quiz.png";
+// import Quiz from "../images/quiz.png";
+import Netflix from "../images/netflix.png"
 const Project = () => {
   const projectAlert = () => {
     alert("Document for this project is not added");
@@ -354,21 +355,22 @@ const Project = () => {
               </Card.Body>
             </Card>
           </div>
+         
           <div className="col-lg-4 col-sm-12 body-margin">
             <Card
               className="body-card"
               data-aos="zoom-in"
               data-aos-duration="900"
             >
-              <Card.Img variant="top" className="project-img" src={Quiz} />
+              <Card.Img variant="top" className="project-img" src={Netflix} />
               <Card.Body className="card-common-bg">
                 <Card.Title className="card-title card-common-bg">
-                  Quiz App
+                  Netflix Clone
                 </Card.Title>
 
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Tech Stack:</b>
-                  MERN Stack
+                  Reactjs
                 </Card.Text>
                 <Card.Text className="text card-common-bg">
                   <b className="card-common-bg">Document : </b>
@@ -378,7 +380,7 @@ const Project = () => {
                 </Card.Text>
                 <div className="card-flex card-common-bg">
                   <Card.Link
-                    href="https://quiz-app-mern-001.netlify.app"
+                    href="https://netflix"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
@@ -390,7 +392,7 @@ const Project = () => {
                     Live Link
                   </Card.Link>
                   <Card.Link
-                    href="https://github.com/dineshramGovindaraj/quiz-app"
+                    href="https://github.com/dineshramGovindaraj/netflix"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >

@@ -54,10 +54,6 @@ const About = () => {
                 <td className="about-question">Email</td>
                 <td className="about-answer">dineshramgovindaraj@gmail.com</td>
               </tr>
-              <tr>
-                <td className="about-question">Phone No</td>
-                <td className="about-answer">+91 63*** ***72</td>
-              </tr>
             </table>
           </div>
         </div>

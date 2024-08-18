@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import Avathar from "../images/avathar-removebg-preview.png";
+import Myimg from "../images/my-image.jpeg";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
             data-aos-duration="1200"
             className="col-lg-6 col-md-6 col-sm-12"
           >
-            <img className="avathar-img" src={Avathar} alt="avathar" />
+            <img className="avathar-img" src={Myimg} alt="avathar" />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
             <h1 className="home-head">

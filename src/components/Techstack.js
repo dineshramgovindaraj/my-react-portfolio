@@ -8,8 +8,8 @@ import Bootstrap from "../images/logos_bootstrap.svg";
 import Github from "../images/akar-icons_github-fill.svg";
 import Git from "../images/logos_git-icon.svg";
 import Vscode from "../images/vscode-icons_file-type-vscode.svg";
-import Expressjs from "../images/expressjs.png";
-import Mongodb from "../images/mongodb.png";
+// import Expressjs from "../images/expressjs.png";
+// import Mongodb from "../images/mongodb.png";
 const Techstack = () => {
   return (
     <>
@@ -72,7 +72,7 @@ const Techstack = () => {
               alt="ejs"
             />
           </div>
-          <div className="flex-child">
+          {/* <div className="flex-child">
             <img
               data-aos="zoom-in-left"
               data-aos-duration="1500"
@@ -80,8 +80,8 @@ const Techstack = () => {
               className="tech-img tech-img-exp"
               alt="rjs"
             />
-          </div>
-          <div className="flex-child">
+          </div> */}
+          {/* <div className="flex-child">
             <img
               data-aos="zoom-in-right"
               data-aos-duration="1500"
@@ -89,7 +89,7 @@ const Techstack = () => {
               className="tech-img tech-img-mdb"
               alt="rjs"
             />
-          </div>
+          </div> */}
           <div className="flex-child">
             <img
               data-aos="zoom-in-left"
