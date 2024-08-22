@@ -10,7 +10,7 @@ import Counter from "../images/counter.png";
 import TodoList from "../images/todo-list.png";
 import Crud from "../images/crud.png";
 // import Quiz from "../images/quiz.png";
-import Netflix from "../images/netflix.png"
+// 
 const Project = () => {
   const projectAlert = () => {
     alert("Document for this project is not added");
@@ -340,59 +340,6 @@ const Project = () => {
                   </Card.Link>
                   <Card.Link
                     href="https://github.com/dineshramGovindaraj/counter"
-                    target="_blank"
-                    className="logo-text card-common-bg"
-                  >
-                    <img
-                      src={GitLogo}
-                      alt="gitlogo"
-                      className="card-common-bg"
-                    />{" "}
-                    <span className="card-common-bg">&nbsp;</span>
-                    View Code
-                  </Card.Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </div>
-         
-          <div className="col-lg-4 col-sm-12 body-margin">
-            <Card
-              className="body-card"
-              data-aos="zoom-in"
-              data-aos-duration="900"
-            >
-              <Card.Img variant="top" className="project-img" src={Netflix} />
-              <Card.Body className="card-common-bg">
-                <Card.Title className="card-title card-common-bg">
-                  Netflix Clone
-                </Card.Title>
-
-                <Card.Text className="text card-common-bg">
-                  <b className="card-common-bg">Tech Stack:</b>
-                  Reactjs
-                </Card.Text>
-                <Card.Text className="text card-common-bg">
-                  <b className="card-common-bg">Document : </b>
-                  <a onClick={projectAlert} href="error" className="doc-link">
-                    Click Here
-                  </a>
-                </Card.Text>
-                <div className="card-flex card-common-bg">
-                  <Card.Link
-                    href="https://netflix"
-                    target="_blank"
-                    className="logo-text card-common-bg"
-                  >
-                    <img
-                      src={Linking}
-                      alt="linking"
-                      className="card-common-bg"
-                    />{" "}
-                    Live Link
-                  </Card.Link>
-                  <Card.Link
-                    href="https://github.com/dineshramGovindaraj/netflix"
                     target="_blank"
                     className="logo-text card-common-bg"
                   >
