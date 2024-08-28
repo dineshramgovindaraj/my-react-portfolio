@@ -3,19 +3,18 @@ import Linking from "../images/linking.png";
 import GitLogo from "../images/github-logo.png";
 import { Card } from "react-bootstrap";
 import "../styles/Project.css";
-import PigGame from "../images/pig-game.png";
-import FlappyBird from "../images/flappy-bird.png";
-import ColorFlipper from "../images/colour-flipper.png";
-import Counter from "../images/counter.png";
-import TodoList from "../images/todo-list.png";
-import Crud from "../images/crud.png";
-import Netflix from "../images/netflix.png";
+// import PigGame from "../images/pig-game.png";
+// import FlappyBird from "../images/flappy-bird.png";
+// import ColorFlipper from "../images/colour-flipper.png";
+// import Counter from "../images/counter.png";
+// import TodoList from "../images/todo-list.png";
+// import Crud from "../images/crud.png";
+// import Netflix from "../images/netflix.png";
+import { pro_list } from "../images/assets";
 // import Quiz from "../images/quiz.png";
 //
 const Project = () => {
-  const projectAlert = () => {
-    alert("Document for this project is not added");
-  };
+  
   return (
     <>
       <h1
@@ -32,7 +31,7 @@ const Project = () => {
       </p>
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 col-sm-12 body-margin">
+          {/* <div className="col-lg-3 col-sm-12 body-margin">
             <Card
               className="body-card"
               data-aos="zoom-in"
@@ -407,7 +406,68 @@ const Project = () => {
                 </div>
               </Card.Body>
             </Card>
-          </div>
+          </div> */}
+          {pro_list.map((movie) => (
+            <div className="col-lg-3 col-sm-12 body-margin">
+              <Card
+                className="body-card"
+                data-aos="zoom-in"
+                data-aos-duration="900"
+              >
+                <Card.Img
+                  variant="top"
+                  className="project-img"
+                  src={movie.pro_img}
+                />
+                <Card.Body className="card-common-bg">
+                  <Card.Title className="card-title card-common-bg">
+                    {movie.pro_name}
+                  </Card.Title>
+
+                  <Card.Text className="text card-common-bg">
+                    <b className="card-common-bg">Tech Stack:</b>
+                    {movie.tech_stack}
+                  </Card.Text>
+                  <Card.Text className="text card-common-bg">
+                    <b className="card-common-bg">Document : </b>
+                    <a
+                      href={movie.doc}
+                      className="doc-link"
+                    >
+                      Click Here
+                    </a>
+                  </Card.Text>
+                  <div className="card-flex card-common-bg">
+                    <Card.Link
+                      href={movie.live_link}
+                      target="_blank"
+                      className="logo-text card-common-bg"
+                    >
+                      <img
+                        src={Linking}
+                        alt="linking"
+                        className="card-common-bg"
+                      />{" "}
+                      Live Link
+                    </Card.Link>
+                    <Card.Link
+                      href={movie.code}
+                      target="_blank"
+                      className="logo-text card-common-bg"
+                    >
+                      <img
+                        src={GitLogo}
+                        alt="gitlogo"
+                        className="card-common-bg"
+                      />{" "}
+                      <span className="card-common-bg">&nbsp;</span>
+                      View Code
+                    </Card.Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </div>
+          ))}
         </div>
       </div>
     </>

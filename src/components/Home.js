@@ -4,9 +4,11 @@ import Myimg from "../images/my-image.jpeg";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
-  const dwAlert = () => {
-    alert("CV Not added");
-  };
+  // const dwAlert = () => {
+  //   alert("CV Not added");
+  //   const link =
+  //     "https://drive.google.com/file/d/1h9nS6tJlM5kbt-BMsWW4aU6IoPIHUJf0/view?usp=drivesdk";
+  // };
 
   return (
     <>
@@ -37,9 +39,11 @@ const Home = () => {
             </h1>
             <div>
               {/* <Link to={"/page-not-found"}> */}
-              <button className="btn btn-secondary cv-btn" onClick={dwAlert}>
-                Download CV
-              </button>
+              <a href="https://drive.google.com/file/d/1h9nS6tJlM5kbt-BMsWW4aU6IoPIHUJf0/view?usp=drivesdk">
+                <button className="btn btn-secondary cv-btn">
+                  Download CV
+                </button>
+              </a>
               {/* </Link> */}
             </div>
           </div>
