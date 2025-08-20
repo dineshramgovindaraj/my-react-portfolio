@@ -20,7 +20,7 @@ const About = () => {
           >
             <p className="about-para">
               {" "}
-              A frontend developer proficient in HTML, CSS, JavaScript,
+              A Software developer proficient in HTML, CSS, JavaScript,
               Bootstrap, React.js. Skilled in designing user- friendly web
               applications, collaborating with teams, and meeting deadlines.
               Strong UI development expertise with a focus on responsive design.

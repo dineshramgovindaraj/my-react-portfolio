@@ -4,7 +4,6 @@ import Project3 from "../images/crud-new.jpeg";
 import Project4 from "../images/todo-new.jpg";
 import Project5 from "../images/colour-flipper-new.jpg";
 import Project6 from "../images/counter.png";
-import Project7 from "../images/netflix-new.avif";
 
 export const pro_list = [
   {
@@ -54,13 +53,5 @@ export const pro_list = [
     doc: "l",
     live_link: "https://counter-js-0001.netlify.app/",
     code: "https://github.com/dineshramGovindaraj/counter",
-  },
-  {
-    pro_img: Project7,
-    pro_name: "Netflix Clone",
-    tech_stack: " Reactjs",
-    doc: "h",
-    live_link: "https://dineshramgovindaraj.github.io/",
-    code: "https://github.com/dineshramGovindaraj/netflix",
   },
 ];
