@@ -55,3 +55,26 @@ export const pro_list = [
     code: "https://github.com/dineshramGovindaraj/counter",
   },
 ];
+export const work_list = [
+  {
+    pro_name: "SIMS HOSPITAL - EMR MODULE",
+    desc1:
+      "EMR (Electronic Medical Records) is a module within the ERP system at SIMS Hospital, used to maintain patient treatment details and manage medical records.",
+    desc2:
+      "In that module, I worked on the Emergency Trauma Doctor Assessment and Nurse Case Sheet Form, which is essentially a case sheet used to collect all medical details of patients involved in accidents or emergencies and store the details in the SIMS Hospital ERP system.",
+  },
+  {
+    pro_name: "SRM UNIVERSITY - LEAVE MANAGEMENT SYSTEM",
+    desc1:
+      "I worked on the Leave Management module of the SRM University ERP system, which allows staff to allocate leaves to students and enables students to apply for leave and view their available leave balance",
+    desc2:
+      "Students can submit leave applications and check their leave availability through their portal.",
+  },
+  {
+    pro_name: "VELS UNIVERSITY - EVENT REQUEST SYSTEM",
+    desc1:
+      "I worked on the Event Request module of the Vels University ERP system. This module manages college events such as symposiums and workshops. It collects and maintains data of participating students through forms and also handles hall bookings for the events",
+    desc2:
+      "The module ensures smooth organization and management of college events by streamlining the event request process.",
+  },
+];

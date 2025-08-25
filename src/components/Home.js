@@ -39,7 +39,7 @@ const Home = () => {
             </h1>
             <div>
               {/* <Link to={"/page-not-found"}> */}
-              <a href="https://drive.google.com/file/d/1h9nS6tJlM5kbt-BMsWW4aU6IoPIHUJf0/view?usp=drivesdk">
+              <a href="https://drive.google.com/file/d/1M9ew_-Vj4RRO7muAHA_yhncnZyajCW4z/view?usp=drive_link">
                 <button className="btn btn-secondary cv-btn">
                   Download CV
                 </button>

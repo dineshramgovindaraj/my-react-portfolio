@@ -9,6 +9,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "aos/dist/aos.js";
 import Project from "./components/Project";
+import WorkProject from "./components/WorkProject";
+import Experience from "./components/Experience";
 
 function App() {
   useEffect(() => {
@@ -19,6 +21,8 @@ function App() {
       <Navbar />
       <Home />
       <Techstack />
+      <Experience />
+      <WorkProject />
       <Project />
       <About />
       <Footer />
